@@ -12,10 +12,12 @@ body {
 
 .container {
     font-family: "Varela Round";
+  /*
     background: #e8a5a0;
-    padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  */
+    padding: 30px;
     width: 350px;
     text-align: center;
     color: #ff4d6d;
@@ -27,9 +29,9 @@ h1 {
 
 .buttons {
     margin-top: 20px;
-    display: flex;          /* Enables flexbox layout */
-    justify-content: center; /* Centers the buttons horizontally */
-    gap: 20px;             /* Optional: Adds space between the buttons */
+    display: flex;      
+    justify-content: center; 
+    gap: 20px;             
 }
 
 button {
@@ -39,7 +41,6 @@ button {
     cursor: pointer;
     border-radius: 8px;
     transition: 0.3s;
-    /* Remove margin-right here for a better layout */
 }
 
 .yes {
@@ -52,8 +53,12 @@ button {
 }
 
 .no {
-    background-color: #ccc;
-    color: black;
+    background-color: #ff3366;
+    color: white;
+}
+
+no:hover {
+    background-color: #ff3366;
 }
 
 #response1 {

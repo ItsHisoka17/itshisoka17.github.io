@@ -49,3 +49,7 @@ noButton.addEventListener("mouseover", function() {
     this.style.left = x + "px";
     this.style.top = y + "px";
 });
+
+yesButton.addEventListener("mouseover", function(){
+    doggy.src = "https://png.pngtree.com/png-vector/20231017/ourmid/pngtree-cute-cartoon-happy-dog-png-file-png-image_10201724.png";
+});

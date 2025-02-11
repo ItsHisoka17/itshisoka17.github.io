@@ -1,3 +1,5 @@
+window.onload = (()=> {console.log("Open Source: https://github.com/itshisoka17/itshisoka17.github.io  |  Created By Jaden")});
+
 let doggy = document.getElementById("doggy");
 let noButton = document.getElementById("noButton");
 let yesButton = document.getElementById("yesButton");

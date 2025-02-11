@@ -39,9 +39,6 @@ document.title = "She said YES!!!!!"
 
 noButton.addEventListener("mouseover", function() {
     doggy.src = "https://cdn2.iconfinder.com/data/icons/cute-pug-dog-emoticon/512/Pug_Emoji_cry-512.png";
-    response.innerText = "You cannot\n\nsay NO!!!";
-    response.style = "font-size: 25px";
-    message.style.display = "none";
     const x = Math.random() * window.innerWidth * 0.6;
     const y = Math.random() * window.innerHeight * 0.6;
 
